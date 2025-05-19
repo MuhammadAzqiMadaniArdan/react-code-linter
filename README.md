@@ -1,11 +1,10 @@
 
 <div style="text-align:'center'">
-<h1>Code Format</h1> 
-eslint,husky,prettier,lint-staged
+<h1>Belajar Code Format 👨‍💻</h1>  | eslint,husky,prettier,lint-staged
 </div>
 
 <hr />
-<h2>0.Materi Awal dan apa yang perlu diperhatikan dalam penulisan code menurut Attlasian (ada 4 tapi poin yang diambil disini 2)</h2>
+<h2>0.Materi Awal dan apa yang perlu diperhatikan dalam penulisan code menurut Attlasian </h2><h3>(ada 4 tapi poin yang diambil disini 2)</h3>
 
 Code Convention
 ->Penulisan Kode di setiap perusahaan -> Penulisannya gimana
@@ -15,7 +14,7 @@ Code Linter
 
 contoh code Linter : menggunakan ESLINT
 
-</h2>1.Install ESlint</h2>
+<h2>1.Install ESlint</h2>
 
 -instalasi
 cmd = npm init @eslint/config@latest
