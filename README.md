@@ -1,4 +1,3 @@
-# React + Vite
 
 <div style="text-align:'center'">
 <h1>Code Format</h1> 
@@ -160,6 +159,8 @@ prettier : https://prettier.io/docs/configuration
 eslint : https://eslint.org/docs/latest/rules/
 
 <hr />
+
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
