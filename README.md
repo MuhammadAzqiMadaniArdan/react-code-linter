@@ -1,11 +1,12 @@
 # React + Vite
 
-			
-				Code Format 
-		- eslint,husky,prettier,lint-staged
+<div style="text-align:'center'">
+<h1>Code Format</h1> 
+eslint,husky,prettier,lint-staged
+</div>
 
-
-0.Materi Awal dan apa yang perlu diperhatikan dalam penulisan code menurut Attlasian (ada 4 tapi poin yang diambil disini 2)
+<hr />
+<h2>0.Materi Awal dan apa yang perlu diperhatikan dalam penulisan code menurut Attlasian (ada 4 tapi poin yang diambil disini 2)</h2>
 
 Code Convention
 ->Penulisan Kode di setiap perusahaan -> Penulisannya gimana
@@ -15,7 +16,7 @@ Code Linter
 
 contoh code Linter : menggunakan ESLINT
 
-1.Install ESlint
+</h2>1.Install ESlint</h2>
 
 -instalasi
 cmd = npm init @eslint/config@latest
@@ -51,7 +52,7 @@ npm run lint -> menjalankan perintah lint
 catatan : setelah konfigurasi keluar dari vscode dulu dan masuk lagi untuk hasil konfig ESlint
 
 
-2.Prettier
+<h2>2.Prettier</h2>
 
 -install
 npm install --save-dev --save-exact prettier
@@ -59,7 +60,8 @@ npm install --save-dev --save-exact prettier
 -buat file .prettierignore
 berisi folder yang tidak dapat diakses
 contoh :
-# Ignore artifacts:
+Ignore artifacts:
+
 build
 coverage
 node_modules
@@ -111,7 +113,7 @@ di scripts tambahkan ini :
 -jalankan Prettier
 npm run format
 
-3.Lint Staged
+<h2>3.Lint Staged</h2>
 
 -instalasi
 npm i lint-staged@12.3.2
@@ -121,11 +123,11 @@ npm i lint-staged@12.3.2
         "*.{js,jsx,ts,tsx}": "eslint"
     },
 
-4.Git Repo
+<h2>4.Git Repo</h2>
 - init dan buat remote ke GitHub
 - git init dan git remote add origin nama_repo
 
-5.Install Husky
+<h2>5.Install Husky</h2>
 
 npm install --save-dev husky 
 npx husky init
@@ -145,18 +147,19 @@ hapus npm test menjadi npx lint-staged
 
 Keterangan : agar saat di commit maka akan auto fix dari eslint dan membuat kode mengikuti rules dan guide prettier
 
-6.Kenapa ? / WHY ?
+<h2>6.Kenapa ? / WHY ?</h2>
 Kenapa Harus di format dan melakukan pengkodean dengan rapih
 
 -Terdapat suatu case ada AT&T sebuah produk digital yang pernah down selama 9 jam down di production karena ada code yang buggy dan mengganggu operasional ehingga merugikan perusahaan
 
-7.Docs
+<h2>7.Docs</h2>
 
 husky : https://typicode.github.io/husky/
 lint : https://www.npmjs.com/package/lint-staged/v/12.3.2
 prettier : https://prettier.io/docs/configuration
 eslint : https://eslint.org/docs/latest/rules/
 
+<hr />
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
